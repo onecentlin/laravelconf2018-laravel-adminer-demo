@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aad3c9080e934e9aa7ea23a1fa24f0c9",
+    "content-hash": "a5867b11cb0f442e0fbd5e79601a5356",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -923,16 +923,16 @@
         },
         {
             "name": "onecentlin/laravel-adminer",
-            "version": "1.3.0",
+            "version": "4.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onecentlin/laravel-adminer.git",
-                "reference": "c123298497967b317d64e3cac69a2fa5dc67986f"
+                "reference": "bafd76f6135f63d54cfa482582ea21a782e0cb93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onecentlin/laravel-adminer/zipball/c123298497967b317d64e3cac69a2fa5dc67986f",
-                "reference": "c123298497967b317d64e3cac69a2fa5dc67986f",
+                "url": "https://api.github.com/repos/onecentlin/laravel-adminer/zipball/bafd76f6135f63d54cfa482582ea21a782e0cb93",
+                "reference": "bafd76f6135f63d54cfa482582ea21a782e0cb93",
                 "shasum": ""
             },
             "require": {
@@ -966,7 +966,7 @@
                 "mysql",
                 "sqlite"
             ],
-            "time": "2017-03-17T03:07:15+00:00"
+            "time": "2018-07-07T19:11:53+00:00"
         },
         {
             "name": "paragonie/random_compat",

@@ -10,7 +10,7 @@ Laravel Adminer 套件範例
 
 - Laravel 5.6.26
 - MySQL 5.5.42
-- 套件：[Laravel-Adminer](https://packagist.org/packages/onecentlin/laravel-adminer) v1.3
+- 套件：[Laravel-Adminer](https://packagist.org/packages/onecentlin/laravel-adminer) v4.6.3
 
 ## 建立 Laravel 專案
 
@@ -46,7 +46,7 @@ php artisan migration
 ## 安裝 laravel-adminer 套件
 
 ```
-composer require onecentlin/laravel-adminer 1.3
+composer require onecentlin/laravel-adminer
 ```
 
 ## 設定套件組態
