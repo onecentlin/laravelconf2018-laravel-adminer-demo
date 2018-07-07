@@ -41,6 +41,16 @@ class Kernel extends HttpKernel
             'throttle:60,1',
             'bindings',
         ],
+
+        // 設定 Adminer 的 middleware
+        'adminer' => [
+            \App\Http\Middleware\EncryptCookies::class,
+            \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+            \Illuminate\Session\Middleware\StartSession::class,
+
+            // 採用內建的驗證
+            \Illuminate\Auth\Middleware\Authenticate::class,
+        ],
     ];
 
     /**
